@@ -7,8 +7,8 @@ import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
 export default function Navbar() {
   return (
-    <Popover className='  mx-auto flex items-center border-b-2 px-6 py-2 h-16 bg-blue-500 text-white ' >
-        <h1 className=" font-bold text-xl ">Programming</h1>
+    <Popover className='  mx-auto flex items-center border-b-2 px-6 py-2 h-16 bg-orange-500 text-white ' >
+        <h1 className=" font-bold text-xl ">Wahib</h1>
         <div className=" grow ">
             <div className=" hidden sm:flex items-center justify-center gap-2 md:gap-8 ">
                <Link href="#" >Home</Link>
@@ -54,6 +54,8 @@ export default function Navbar() {
                     <Link href="#" className=' focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 ' >Shop</Link>
                     <Link href="#" className=' focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 ' >About</Link>
                     <Link href="#" className=' focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 ' >Contact</Link>
+                    <Link href="#" className=' focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 ' >Blog</Link>
+                    
                     </nav>
                   </div>
                   <div className=" mt-6 flex flex-col items-center gap-2 ">
